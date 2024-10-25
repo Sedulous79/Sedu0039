@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace ;
+}
+@font-face {
+    font-family:'Courier New', Courier, monospace;
+    src: url('fonts/cochin.woff2');
+}
+
+.sect-2{
+    padding: 20px 80px;
+}
+
+header{
+
+    .div-3{
+        padding: 30px 80px;
+        background: darkblue;
+        height: 20vh;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        /* margin-right: 20px; */
+        gap: 20px;
+        font-weight: 700;
+
+        a{
+            color: #fff;
+            margin-right:40px ;
+            font-size: 20px;
+            list-style: none;
+            text-decoration: none;
+
+            input{
+                padding: 10px;
+                border-radius: 20px;
+                width: 30vw;
+
+            }
+        }
+       
+    }
+
+        .div-2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .link{
+
+                    a{
+                        margin-right: 20px;
+                        color: #0f0f0f;
+                        border-radius: 20px;
+                        
+                        .bag{
+                            
+                            margin-right: 80px;
+                        }
+
+                    }
+                }
+
+                li{
+
+                    list-style: none;
+                    text-decoration: none;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 20px;
+                        /* border: 2px solid blue; */
+                    }
+                }
+       
+        }
+    
+
+
+    .div-1{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 80px;
+        background: whitesmoke;
+        p{
+
+           
+            a{
+                font-size: 16px;
+                font-weight: 400;
+                text-decoration: none;
+                list-style: none;
+                line-height: 10px;
+            }
+        }
+
+
+        .end{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            margin-right: 10px;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+
+
+
+        .group-cir{
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            .cir-1{
+                border: 2px solid darkblue;
+                width: 20px;
+                height: 20px;
+                border-radius: 100px;
+                padding: 13px;
+                margin-bottom: 8px;
+                background: darkblue;
+            }
+
+            .cir-2{
+                border: 2px solid darkblue;
+                background: darkblue;
+                width: 20px;
+                height: 20px;
+                border-radius: 100px;
+                padding: 13px;
+                margin-bottom: 8px;
+            }
+            .cir-3{
+                border: 2px solid darkblue;
+                width: 20px;
+                height: 20px;
+                border-radius: 100px;
+                background: darkblue;
+                padding: 13px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+
+#hero{
+    background-image: url('../Romyi/images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+    margin-bottom: 30px;
+
+    h3{
+        font-size: 80px;
+        font-weight: 800;
+        color: yellow;
+    }
+    h2{
+        font-weight: 800;
+        font-size: 30px;
+        color: darkblue;
+    }
+    button{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 3px solid darkblue;
+        background: darkblue;
+        color: #fff;
+    }
+    p{
+        color: black;
+        font-size: 35px;
+        margin-bottom: 10px;
+        font-weight: 900;
+    }
+}
+
+/* 
+.brand-img{
+    max-width: 100%;
+
+    .brand-details{
+        background: yellow;
+        width: 10%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+
+        .img-bd{
+
+            img{
+                width: 100%px;
+            }
+
+            p{
+                transform: translate(-10%, -40%);
+                min-width: 100%;
+                padding: 20px;
+            }
+        }
+    }
+} 
+*/
+
+.brand-img{
+    display: flex;
+
+    .brand-details{
+        margin-top: 250px;
+       
+
+        .pro{
+            display: flex;
+
+            p{
+                text-align: center;
+                color: #fff;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+
+            .holder{
+                width: 16.5vw;
+                height: 25vh;
+                border: 2px solid whitesmoke;
+
+                .img{
+
+                    img{
+                        align-items: center;
+                        justify-content: center;
+                        margin:20px 30px 20px 45px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sec-featured{
+    padding: 90px 90px 40px 100px;
+}
+#feature{
+    background-image: url('images/product_bg.jpg');
+    background-repeat: repeat;
+    text-align: center;
+
+    button{
+        background: rgb(46, 46, 107);
+        padding: 10px 40px;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 800;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 30px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    h2{
+        color: #0f0f0f;
+        font-weight: 900;
+        text-transform: capitalize;
+        font-size: 40px;
+        border-bottom: 4px solid yellow;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+        .container-content{
+
+
+            h3{
+                font-size: 20px;
+                font-weight: 400;
+                width: 20%;
+                padding: 20px 10px 0 0;
+            }
+            
+
+            .cont{
+                background: whitesmoke;
+                margin-top: 42px;
+                width: 50%;
+                height: 40vh;
+                
+
+
+
+                .hold{
+
+                    img{
+                        align-content: center;
+                        margin: 40px 0 40px 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
